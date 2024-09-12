@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/cf53acc9b5.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 만들기</title>
+    <style>
+        .cls001 {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .cls001 > li {
+            width: 150px;
+            height: 40px;
+            background: dodgerblue;
+            float: left;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .cls001 li ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        } 
+
+        .cls001 li ul li {
+            width: 150px;
+            height: 40px;
+            background: dodgerblue;
+            display: none;
+        }
+
+        .cls001 li:hover ul li {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul class="cls001">
+        <li>HTML
+            <ul>
+                <li>menu1-1</li>
+                <li>menu1-2</li>
+                <li>menu1-3</li>
+                <li>menu1-4</li>
+            </ul>
+        </li>
+        <li>CSS
+            <ul>
+                <li><a href="https://www.naver.com/" target="_blank">naver</a></li>
+                <li><a href="https://www.apple.com" target="_blank"><i class="fa-brands fa-apple"></i>apple</a></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </li>
+        <li>jQuery
+
+        </li>
+        <li>Javascript
+
+        </li>
+    </ul>
+</body>
+</html>
